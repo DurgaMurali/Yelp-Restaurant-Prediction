@@ -87,5 +87,6 @@ print(len(users))
 
 #close all the files 
 u_r.close()
+u_data.close()
 write_u_r.close()
 write_u.close()
