@@ -6,7 +6,7 @@ u=0
 restaurants={}
 
 #create new file with indexes of users and restaurants added
-write_u_r.write("User,UserID,Restaurant,RestaurantID,Rating")
+write_u_r.write("User,UserID,Restaurant,RestaurantID,Rating\n")
 r=0
 i=0
 for line in u_r:
